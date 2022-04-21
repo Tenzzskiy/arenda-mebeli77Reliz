@@ -1,0 +1,41 @@
+@import 'src/assets/framework/_breakpoints';
+.arenda{
+  background: #F5F3EE;
+  width: 100%;
+
+  margin: 0 auto;
+}
+.content{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding:0 15px 10px 15px;
+  width: 100%;
+display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+@include mobile{
+  .content{
+
+    padding: 0 24px 60px 24px;
+  }
+}
+@include tablets{
+  .content{
+    padding: 24px 0 60px 0;
+    justify-content: unset;
+
+  }
+}
+.arenda2{
+  width: 173px;
+
+}
+.button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

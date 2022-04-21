@@ -1,0 +1,28 @@
+@import 'src/assets/framework/_breakpoints';
+.preference_padding{
+  padding: 20px 0 0 0 !important;
+}
+.preference{
+  padding: 20px 0 40px 0;
+  background: #F5F3EE;
+}
+@include mobile{
+  .preference{
+    padding: 20px 0 40px 0;
+    background: #F5F3EE;
+  }
+  .preference_padding{
+    padding: 20px 0 0 0 !important;
+  }
+}
+@include tablets{
+  .content{
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+
+  }
+  .preference_padding{
+    padding: 20px 0 0 0 !important;
+  }
+}
